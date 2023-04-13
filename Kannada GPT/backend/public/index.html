@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KannadaGPT</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>KannadaGPT</h1>
+        <form id="promptForm">
+            <label for="prompt">Enter your prompt in English or Kannada:</label>
+            <textarea id="prompt" rows="4" cols="50" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <div id="result" class="hidden">
+            <h2>Result in Kannada:</h2>
+            <p id="generatedText"></p>
+            <button id="newPrompt">New Prompt</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
